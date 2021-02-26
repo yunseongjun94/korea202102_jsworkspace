@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복합 구조의 레이아웃</title>
+<style>
+#navi{
+    background-color: yellow;
+    height: 100px;
+    width: 700px;
+}
+#side{
+    background-color: greenyellow;
+    height: 550px;
+    width: 100px;
+    float: left; /* 물체를 공중으로 부양하자!!, 부양방향은 좌측방향으로... */
+
+ 
+}
+#content{
+    background-color: blue;
+    height: 550px;
+    width: 600px;
+    float: left;
+}
+#wrapper{
+    /*  margin-left: 800px; 좌측을 기준으로 x축 양의 방향으로 300px 떨어지게 */
+    
+}
+
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="navi">노란색박스</div>
+        <div id="side">사이드</div>
+        <div id="content">컨텐츠영역</div>
+    </div>>   
+</body>
+
+</html>
